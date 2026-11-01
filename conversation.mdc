@@ -1,0 +1,17 @@
+# Conversation and Decision History
+
+## 2026-11-01 — Repository bootstrap
+- Continued the b3Ɛq portfolio repository sequence with Business Intelligence Framework.
+- Verified repository `Devf7en/b3-q-Business-Intelligence-Framework` exists; GitHub reports its visibility as Public. Standing portfolio requirement is Private; owner action is required to correct visibility. No claim of private status is made.
+- Inspected Core `MODULE_REGISTRY.md`, `ten.f7en.net/custom/bi/README.md`, and `ten.f7en.net/custom/etl/README.md`.
+- Recorded BI module 104300 v1.1.1 and ETL module 104450 v1.1.0 as existing Core capabilities. Core documentation describes both primarily as registries/metadata and orchestration models, not complete independent execution engines.
+- Decision: establish an independent product architecture while preserving Core ownership until evidence-based extraction/migration is approved.
+- Added initial charter, architecture, capability map, boundaries, security, operations, roadmap, ADR and illustrative metric contract.
+- Portfolio ID assigned: B3EQ-PORT-0024, subject to registry reconciliation.
+- This is a documentation bootstrap only; no runtime or production readiness is implied.
+
+## Standing rules
+- Canonical brand spelling is b3Ɛq (Greek epsilon U+0190).
+- EBMA™ governs all architecture; conformance remains not_assessed until evidence review.
+- Preserve existing Core capability and avoid duplicate sources of truth.
+- Record facts separately from hypotheses; do not claim unverified implementation.
