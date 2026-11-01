@@ -1,0 +1,25 @@
+# Ideation — b3Ɛq Business Intelligence Framework™
+
+## Foundational intent
+Build a reusable enterprise BI product, not a collection of isolated dashboards. The framework should support trusted data products, semantic consistency, measurable outcomes and governed decisions across the b3Ɛq portfolio.
+
+## Design hypotheses to validate
+- A federated architecture with shared semantic contracts is preferable to a single monolithic warehouse.
+- Metric definitions need explicit ownership, versioning, dimensional grain, formula semantics, quality thresholds, effective dates and lineage.
+- Data products should expose contracts and quality evidence, not merely database tables.
+- BI must distinguish descriptive, diagnostic, predictive, prescriptive and decision intelligence.
+- Simulation must preserve scenario assumptions, model versions, uncertainty and provenance.
+- AI outputs must be explainable, evaluated, bounded by autonomy policy and linked to source evidence.
+- A common presentation layer may consume governed semantic APIs without owning source operational truth.
+
+## Questions still open
+1. Which existing Core BI/ETL schemas and services should be retained, adapted, extracted or replaced?
+2. Which physical analytical stores are supported first (MariaDB, PostgreSQL, DuckDB, object storage, columnar/lakehouse)?
+3. What semantic query/metrics engine is selected?
+4. Which dashboard/report renderers are first-class versus adapters?
+5. How will row/column-level security propagate across federated sources?
+6. What is the authoritative metric approval and change-control workflow?
+7. Which AI model/runtime is approved for forecasting and recommendations?
+8. Which deployment profile is the first reference implementation?
+
+Ideas are not approved architecture until captured in an ADR or versioned contract.
