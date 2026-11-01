@@ -1,0 +1,36 @@
+contract: b3eq.bi.metric-definition
+contract_version: 0.1.0
+status: illustrative
+metric:
+  id: net_revenue
+  name: Net Revenue
+  description: Illustrative metric definition; not an approved financial definition.
+  owner_domain: finance
+  steward_role: finance_metric_steward
+  grain:
+    dimensions: [legal_entity, accounting_period, currency]
+  calculation:
+    expression_ref: finance-approved-expression-required
+    aggregation: governed
+    null_policy: explicit-policy-required
+  unit: currency
+  currency_policy: reporting-currency-and-fx-policy-required
+  time:
+    calendar: finance-calendar
+    timezone: UTC
+  quality:
+    freshness_slo: pending
+    completeness_threshold: pending
+    reconciliation_rule: finance-source-reconciliation-required
+  security:
+    classification: confidential
+    row_policy_ref: core-iam-policy-required
+  lineage:
+    source_contract_refs: []
+    transformation_refs: []
+  lifecycle:
+    version: 0.1.0
+    status: draft
+    approval_ref: null
+    effective_from: null
+    effective_to: null
