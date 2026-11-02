@@ -15,3 +15,10 @@
 - EBMA™ governs all architecture; conformance remains not_assessed until evidence review.
 - Preserve existing Core capability and avoid duplicate sources of truth.
 - Record facts separately from hypotheses; do not claim unverified implementation.
+
+
+## 2026-11-02 — EBMA portfolio adoption
+- Added the mandatory repository-level EBMA adoption notice and README link.
+- Linked this portfolio item to its shared EBMA draft profile shell.
+- All profile sections require owner validation and evidence; Part/Layer/Section and Organ System mappings remain unassigned pending review.
+- No EBMA-conformance claim is made.
