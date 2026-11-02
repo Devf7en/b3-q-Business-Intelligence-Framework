@@ -40,3 +40,8 @@ This repository begins with documentation and architecture contracts. No indepen
 - [Illustrative metric contract](contracts/metric-definition.example.yaml)
 - [Ideation](ideation.mdc)
 - [Conversation history](conversation.mdc)
+
+
+## EBMA architecture and conformance
+
+This project is governed by the b3Ɛq-wide EBMA adoption mandate. See [EBMA Adoption Notice](docs/EBMA-ADOPTION.md) and the [shared profile registry](https://github.com/Devf7en/b3-q_EBMA/blob/main/profiles/portfolio-profiles.json). This project is not currently declared EBMA-conformant.
