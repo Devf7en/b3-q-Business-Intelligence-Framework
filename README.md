@@ -1,4 +1,4 @@
-# b3Ɛq Business Intelligence Framework™
+# b3Ɛq::Business Intelligence Framework™
 **Repository:** `Devf7en/b3-q-Business-Intelligence-Framework`  
 **Version:** 0.1.0  
 **Portfolio ID:** B3EQ-PORT-0024  
@@ -16,7 +16,7 @@ These are source-repository findings, not a fresh runtime audit. Preserve Core a
 ## Authority and boundaries
 - EBMA™ is the normative architecture authority.
 - This repository owns the independent BI product architecture, semantic/metric contracts, BI capability roadmap and product lifecycle.
-- b3Ɛq Core remains the shared runtime and current host of BI/ETL module capabilities pending migration approval.
+- b3Ɛq::Core remains the shared runtime and current host of BI/ETL module capabilities pending migration approval.
 - Core BI/ETL metadata must not be duplicated as competing sources of truth.
 - DataOS projects own jurisdictional/data-domain stewardship; BI consumes governed data products and does not usurp their authority.
 - KMS owns governed knowledge; BI owns analytical semantics and measured performance; Ethos Intelligence owns enterprise ethos/intent interpretation where approved.
